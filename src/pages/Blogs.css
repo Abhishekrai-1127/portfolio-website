@@ -1,0 +1,221 @@
+@import "../components/styles/LatestBlog.css";
+
+.blogs-page {
+  min-height: 100vh;
+  background-color: var(--backgroundColor);
+  color: #eae5ec;
+  padding: 40px 24px 80px;
+  box-sizing: border-box;
+}
+
+.blogs-topbar {
+  max-width: 1240px;
+  margin: 0 auto 35px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+}
+
+.blogs-back-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 22px;
+  border-radius: 999px;
+  border: 1px solid rgba(194, 164, 255, 0.35);
+  background: rgba(29, 20, 51, 0.55);
+  color: var(--accentColor);
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
+  transition: all 0.25s ease;
+}
+
+.blogs-back-btn:hover {
+  background: var(--accentColor);
+  color: #09060e;
+}
+
+.blogs-header {
+  max-width: 900px;
+  margin: 0 auto 55px;
+  text-align: center;
+}
+
+.blogs-header h1 {
+  font-size: clamp(38px, 5vw, 64px);
+  font-weight: 800;
+  letter-spacing: 3px;
+  margin: 0;
+  color: #ffffff;
+}
+
+.blogs-header h1 span {
+  color: var(--accentColor);
+}
+
+.blogs-gold-subtitle {
+  margin: 10px 0 30px;
+  font-size: clamp(20px, 2.4vw, 28px);
+  font-weight: 700;
+  color: #e5a93c;
+}
+
+.blogs-grid-wrapper {
+  max-width: 1240px;
+  margin: 0 auto 60px;
+}
+
+/* Single Blog Article View */
+.blog-article-container {
+  max-width: 880px;
+  margin: 0 auto 80px;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(194, 164, 255, 0.2);
+  border-radius: 28px;
+  padding: 48px 42px;
+  box-sizing: border-box;
+}
+
+.blog-article-meta {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+  font-size: 13.5px;
+  color: rgba(255, 255, 255, 0.65);
+  margin-bottom: 20px;
+}
+
+.blog-article-category {
+  background: rgba(194, 164, 255, 0.16);
+  color: var(--accentColor);
+  padding: 5px 14px;
+  border-radius: 999px;
+  font-weight: 700;
+}
+
+.blog-article-date {
+  color: #e5a93c;
+  font-weight: 700;
+}
+
+.blog-article-ai-pill {
+  background: rgba(229, 169, 60, 0.15);
+  border: 1px solid rgba(229, 169, 60, 0.4);
+  color: #e5a93c;
+  padding: 4px 12px;
+  border-radius: 999px;
+  font-weight: 700;
+}
+
+.blog-article-title {
+  font-size: clamp(28px, 3.8vw, 44px);
+  line-height: 1.22;
+  margin: 0 0 12px;
+  color: #ffffff;
+}
+
+.blog-article-subtitle {
+  font-size: 18px;
+  color: var(--accentColor);
+  margin: 0 0 32px;
+}
+
+.blog-article-hero-visual {
+  background: linear-gradient(180deg, #1b2430 0%, #121820 100%);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 20px;
+  padding: 28px 24px 18px;
+  text-align: center;
+  margin-bottom: 36px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.blog-article-hero-visual .blog-diagram-svg {
+  max-width: 380px;
+  height: 200px;
+}
+
+.blog-article-intro {
+  font-size: 18px;
+  line-height: 1.75;
+  color: rgba(255, 255, 255, 0.9);
+  margin-bottom: 32px;
+}
+
+.blog-article-section {
+  margin-bottom: 32px;
+}
+
+.blog-article-section h2 {
+  font-size: 24px;
+  color: #ffffff;
+  margin: 0 0 12px;
+}
+
+.blog-article-section p {
+  font-size: 16.5px;
+  line-height: 1.75;
+  color: rgba(234, 229, 236, 0.8);
+  margin: 0 0 18px;
+}
+
+.blog-article-code {
+  background: #08050d;
+  border: 1px solid rgba(194, 164, 255, 0.28);
+  border-radius: 14px;
+  padding: 20px;
+  overflow-x: auto;
+  font-family: monospace;
+  font-size: 14px;
+  line-height: 1.6;
+  color: #c2a4ff;
+}
+
+.blog-article-takeaways {
+  background: rgba(194, 164, 255, 0.08);
+  border-left: 4px solid var(--accentColor);
+  border-radius: 14px;
+  padding: 24px 28px;
+  margin-top: 36px;
+}
+
+.blog-article-takeaways h3 {
+  margin: 0 0 12px;
+  color: #ffffff;
+  font-size: 20px;
+}
+
+.blog-article-takeaways ul {
+  margin: 0;
+  padding-left: 20px;
+}
+
+.blog-article-takeaways li {
+  margin-bottom: 8px;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.blogs-related-section {
+  max-width: 1240px;
+  margin: 0 auto 60px;
+}
+
+.blogs-related-section h2 {
+  font-size: 32px;
+  text-align: center;
+  margin-bottom: 32px;
+  color: #ffffff;
+}
+
+@media only screen and (max-width: 768px) {
+  .blog-article-container {
+    padding: 28px 20px;
+  }
+}
+

@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900">
+  <defs>
+    <linearGradient id="bgInv" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#070810"/>
+      <stop offset="50%" stop-color="#11162b"/>
+      <stop offset="100%" stop-color="#0b0716"/>
+    </linearGradient>
+    <radialGradient id="glowInv" cx="30%" cy="60%" r="55%">
+      <stop offset="0%" stop-color="#00d4ff" stop-opacity="0.24"/>
+      <stop offset="100%" stop-color="#00d4ff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1600" height="900" fill="url(#bgInv)"/>
+  <rect width="1600" height="900" fill="url(#glowInv)"/>
+
+  <!-- Header -->
+  <text x="110" y="95" fill="#00d4ff" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="700" letter-spacing="3">REAL-TIME STOCK &amp; WAREHOUSE CONTROL</text>
+  <text x="110" y="150" fill="#ffffff" font-family="system-ui, -apple-system, sans-serif" font-size="48" font-weight="800">Inventory Management System</text>
+
+  <rect x="1190" y="95" width="300" height="48" rx="24" fill="#132238" stroke="#00d4ff" stroke-width="1.5"/>
+  <text x="1340" y="125" text-anchor="middle" fill="#00d4ff" font-family="system-ui, sans-serif" font-size="18" font-weight="700">🔒 JWT Protected REST APIs</text>
+
+  <!-- Main Container -->
+  <rect x="110" y="190" width="1380" height="580" rx="22" fill="#121324" stroke="#c2a4ff" stroke-opacity="0.3" stroke-width="1.5"/>
+
+  <!-- Top KPI Bar -->
+  <rect x="145" y="225" width="415" height="125" rx="14" fill="#181b30" stroke="#00d4ff" stroke-opacity="0.3"/>
+  <text x="175" y="265" fill="#9f94b8" font-family="system-ui, sans-serif" font-size="15" font-weight="700">TOTAL STOCK ITEMS</text>
+  <text x="175" y="318" fill="#ffffff" font-family="system-ui, sans-serif" font-size="42" font-weight="800">28,640 Units</text>
+
+  <rect x="590" y="225" width="415" height="125" rx="14" fill="#181b30" stroke="#c2a4ff" stroke-opacity="0.3"/>
+  <text x="620" y="265" fill="#9f94b8" font-family="system-ui, sans-serif" font-size="15" font-weight="700">WAREHOUSE CAPACITY</text>
+  <text x="620" y="318" fill="#c2a4ff" font-family="system-ui, sans-serif" font-size="42" font-weight="800">86.4% Utilized</text>
+
+  <rect x="1035" y="225" width="420" height="125" rx="14" fill="#181b30" stroke="#10b981" stroke-opacity="0.3"/>
+  <text x="1065" y="265" fill="#9f94b8" font-family="system-ui, sans-serif" font-size="15" font-weight="700">LOW STOCK ALERTS</text>
+  <text x="1065" y="318" fill="#10b981" font-family="system-ui, sans-serif" font-size="42" font-weight="800">Auto-Reorder Active</text>
+
+  <!-- SKU Stock Table -->
+  <rect x="145" y="380" width="1310" height="355" rx="14" fill="#17182b" stroke="#c2a4ff" stroke-opacity="0.2"/>
+  <text x="180" y="425" fill="#ffffff" font-family="system-ui, sans-serif" font-size="22" font-weight="700">Live SKU Stock Ledger &amp; Movement Tracking</text>
+
+  <!-- Table Header -->
+  <rect x="175" y="445" width="1250" height="42" rx="8" fill="#21233d"/>
+  <text x="200" y="472" fill="#c2a4ff" font-family="monospace" font-size="15" font-weight="700">SKU ID</text>
+  <text x="410" y="472" fill="#c2a4ff" font-family="monospace" font-size="15" font-weight="700">CATEGORY</text>
+  <text x="690" y="472" fill="#c2a4ff" font-family="monospace" font-size="15" font-weight="700">STOCK LEVEL</text>
+  <text x="1020" y="472" fill="#c2a4ff" font-family="monospace" font-size="15" font-weight="700">WAREHOUSE</text>
+  <text x="1260" y="472" fill="#c2a4ff" font-family="monospace" font-size="15" font-weight="700">STATUS</text>
+
+  <!-- Row 1 -->
+  <text x="200" y="530" fill="#ffffff" font-family="monospace" font-size="16">SKU-8841-AX</text>
+  <text x="410" y="530" fill="#d0cbe0" font-family="system-ui, sans-serif" font-size="16">Electronics &amp; Hardware</text>
+  <rect x="690" y="514" width="220" height="14" rx="7" fill="#2a2c4a"/>
+  <rect x="690" y="514" width="185" height="14" rx="7" fill="#10b981"/>
+  <text x="1020" y="530" fill="#d0cbe0" font-family="system-ui, sans-serif" font-size="16">Zone A • Rack 04</text>
+  <text x="1260" y="530" fill="#10b981" font-family="system-ui, sans-serif" font-size="16" font-weight="700">● In Stock</text>
+
+  <!-- Row 2 -->
+  <text x="200" y="595" fill="#ffffff" font-family="monospace" font-size="16">SKU-3920-kL</text>
+  <text x="410" y="595" fill="#d0cbe0" font-family="system-ui, sans-serif" font-size="16">Industrial Components</text>
+  <rect x="690" y="579" width="220" height="14" rx="7" fill="#2a2c4a"/>
+  <rect x="690" y="579" width="150" height="14" rx="7" fill="#00d4ff"/>
+  <text x="1020" y="595" fill="#d0cbe0" font-family="system-ui, sans-serif" font-size="16">Zone B • Rack 11</text>
+  <text x="1260" y="595" fill="#00d4ff" font-family="system-ui, sans-serif" font-size="16" font-weight="700">● Dispatched</text>
+
+  <!-- Row 3 -->
+  <text x="200" y="660" fill="#ffffff" font-family="monospace" font-size="16">SKU-5519-MN</text>
+  <text x="410" y="660" fill="#d0cbe0" font-family="system-ui, sans-serif" font-size="16">Packaging &amp; Logistics</text>
+  <rect x="690" y="644" width="220" height="14" rx="7" fill="#2a2c4a"/>
+  <rect x="690" y="644" width="195" height="14" rx="7" fill="#c2a4ff"/>
+  <text x="1020" y="660" fill="#d0cbe0" font-family="system-ui, sans-serif" font-size="16">Zone C • Rack 02</text>
+  <text x="1260" y="660" fill="#c2a4ff" font-family="system-ui, sans-serif" font-size="16" font-weight="700">● Verified</text>
+
+  <!-- Footer Tech Pills -->
+  <g transform="translate(110, 800)">
+    <rect x="0" y="0" width="140" height="44" rx="22" fill="#1e1533" stroke="#c2a4ff" stroke-opacity="0.4"/>
+    <text x="70" y="28" text-anchor="middle" fill="#ffffff" font-family="system-ui, sans-serif" font-size="17" font-weight="600">Next.js</text>
+
+    <rect x="160" y="0" width="150" height="44" rx="22" fill="#1e1533" stroke="#c2a4ff" stroke-opacity="0.4"/>
+    <text x="235" y="28" text-anchor="middle" fill="#ffffff" font-family="system-ui, sans-serif" font-size="17" font-weight="600">Node.js</text>
+
+    <rect x="330" y="0" width="170" height="44" rx="22" fill="#1e1533" stroke="#c2a4ff" stroke-opacity="0.4"/>
+    <text x="415" y="28" text-anchor="middle" fill="#ffffff" font-family="system-ui, sans-serif" font-size="17" font-weight="600">PostgreSQL</text>
+
+    <rect x="520" y="0" width="150" height="44" rx="22" fill="#1e1533" stroke="#c2a4ff" stroke-opacity="0.4"/>
+    <text x="595" y="28" text-anchor="middle" fill="#ffffff" font-family="system-ui, sans-serif" font-size="17" font-weight="600">JWT Auth</text>
+  </g>
+</svg>
+

@@ -1,0 +1,121 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900">
+  <defs>
+    <linearGradient id="bgErp" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#08060e"/>
+      <stop offset="50%" stop-color="#170d2b"/>
+      <stop offset="100%" stop-color="#091020"/>
+    </linearGradient>
+    <radialGradient id="glowErp" cx="70%" cy="25%" r="55%">
+      <stop offset="0%" stop-color="#c2a4ff" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#c2a4ff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="panelErp" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1b1230" stop-opacity="0.92"/>
+      <stop offset="100%" stop-color="#0e091a" stop-opacity="0.95"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1600" height="900" fill="url(#bgErp)"/>
+  <rect width="1600" height="900" fill="url(#glowErp)"/>
+
+  <!-- Header -->
+  <text x="110" y="95" fill="#c2a4ff" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="700" letter-spacing="3">SURAJ ENTERPRISES • MODULAR ENTERPRISE SAAS</text>
+  <text x="110" y="150" fill="#ffffff" font-family="system-ui, -apple-system, sans-serif" font-size="48" font-weight="800">Multi-Module Cloud ERP System</text>
+
+  <rect x="1210" y="95" width="280" height="48" rx="24" fill="#1e1436" stroke="#c2a4ff" stroke-width="1.5"/>
+  <text x="1350" y="125" text-anchor="middle" fill="#c2a4ff" font-family="system-ui, sans-serif" font-size="18" font-weight="700">8 Core Modules Integrated</text>
+
+  <!-- Main ERP Shell -->
+  <rect x="110" y="190" width="1380" height="580" rx="22" fill="url(#panelErp)" stroke="#c2a4ff" stroke-opacity="0.3" stroke-width="1.5"/>
+
+  <!-- Left Sidebar -->
+  <rect x="110" y="190" width="270" height="580" rx="22" fill="#120b22"/>
+  <text x="145" y="245" fill="#ffffff" font-family="system-ui, sans-serif" font-size="22" font-weight="800">SURAJ ERP</text>
+  <rect x="135" y="275" width="220" height="44" rx="10" fill="#7f40ff" fill-opacity="0.35" stroke="#c2a4ff" stroke-opacity="0.5"/>
+  <text x="155" y="303" fill="#ffffff" font-family="system-ui, sans-serif" font-size="16" font-weight="600">01 • Sales &amp; Orders</text>
+  <text x="155" y="355" fill="#a599c2" font-family="system-ui, sans-serif" font-size="16" font-weight="500">02 • Purchase Mgmt</text>
+  <text x="155" y="405" fill="#a599c2" font-family="system-ui, sans-serif" font-size="16" font-weight="500">03 • Inventory Control</text>
+  <text x="155" y="455" fill="#a599c2" font-family="system-ui, sans-serif" font-size="16" font-weight="500">04 • Billing &amp; GST</text>
+  <text x="155" y="505" fill="#a599c2" font-family="system-ui, sans-serif" font-size="16" font-weight="500">05 • Accounting Ledger</text>
+  <text x="155" y="555" fill="#a599c2" font-family="system-ui, sans-serif" font-size="16" font-weight="500">06 • Client CRM</text>
+  <text x="155" y="605" fill="#a599c2" font-family="system-ui, sans-serif" font-size="16" font-weight="500">07 • HR &amp; Payroll</text>
+  <text x="155" y="655" fill="#a599c2" font-family="system-ui, sans-serif" font-size="16" font-weight="500">08 • BI Reporting</text>
+
+  <!-- 8 Module Grid Cards inside Main Workspace -->
+  <!-- Row 1 -->
+  <rect x="415" y="230" width="245" height="145" rx="14" fill="#171029" stroke="#c2a4ff" stroke-opacity="0.28"/>
+  <text x="440" y="268" fill="#c2a4ff" font-family="system-ui, sans-serif" font-size="15" font-weight="700">SALES MODULE</text>
+  <text x="440" y="315" fill="#ffffff" font-family="system-ui, sans-serif" font-size="32" font-weight="800">₹42.8L</text>
+  <text x="440" y="350" fill="#10b981" font-family="system-ui, sans-serif" font-size="14" font-weight="600">▲ 318 Active Orders</text>
+
+  <rect x="680" y="230" width="245" height="145" rx="14" fill="#171029" stroke="#c2a4ff" stroke-opacity="0.28"/>
+  <text x="705" y="268" fill="#00d4ff" font-family="system-ui, sans-serif" font-size="15" font-weight="700">PURCHASE &amp; PO</text>
+  <text x="705" y="315" fill="#ffffff" font-family="system-ui, sans-serif" font-size="32" font-weight="800">84 POs</text>
+  <text x="705" y="350" fill="#9f94b8" font-family="system-ui, sans-serif" font-size="14" font-weight="600">Vendor Approval Sync</text>
+
+  <rect x="945" y="230" width="245" height="145" rx="14" fill="#171029" stroke="#c2a4ff" stroke-opacity="0.28"/>
+  <text x="970" y="268" fill="#c2a4ff" font-family="system-ui, sans-serif" font-size="15" font-weight="700">INVENTORY</text>
+  <text x="970" y="315" fill="#ffffff" font-family="system-ui, sans-serif" font-size="32" font-weight="800">12,450</text>
+  <text x="970" y="350" fill="#10b981" font-family="system-ui, sans-serif" font-size="14" font-weight="600">SKUs Tracked Live</text>
+
+  <rect x="1210" y="230" width="245" height="145" rx="14" fill="#171029" stroke="#c2a4ff" stroke-opacity="0.28"/>
+  <text x="1235" y="268" fill="#00d4ff" font-family="system-ui, sans-serif" font-size="15" font-weight="700">BILLING &amp; INVOICES</text>
+  <text x="1235" y="315" fill="#ffffff" font-family="system-ui, sans-serif" font-size="32" font-weight="800">99.8%</text>
+  <text x="1235" y="350" fill="#10b981" font-family="system-ui, sans-serif" font-size="14" font-weight="600">Automated Reconciliation</text>
+
+  <!-- Row 2 -->
+  <rect x="415" y="395" width="245" height="145" rx="14" fill="#171029" stroke="#c2a4ff" stroke-opacity="0.28"/>
+  <text x="440" y="433" fill="#c2a4ff" font-family="system-ui, sans-serif" font-size="15" font-weight="700">ACCOUNTING</text>
+  <text x="440" y="480" fill="#ffffff" font-family="system-ui, sans-serif" font-size="28" font-weight="800"> General Ledger</text>
+  <text x="440" y="515" fill="#9f94b8" font-family="system-ui, sans-serif" font-size="14" font-weight="600">P&amp;L • Balance Sheet</text>
+
+  <rect x="680" y="395" width="245" height="145" rx="14" fill="#171029" stroke="#c2a4ff" stroke-opacity="0.28"/>
+  <text x="705" y="433" fill="#00d4ff" font-family="system-ui, sans-serif" font-size="15" font-weight="700">CRM PIPELINE</text>
+  <text x="705" y="480" fill="#ffffff" font-family="system-ui, sans-serif" font-size="28" font-weight="800">1,420 Leads</text>
+  <text x="705" y="515" fill="#10b981" font-family="system-ui, sans-serif" font-size="14" font-weight="600">Role-Based Access Control</text>
+
+  <rect x="945" y="395" width="245" height="145" rx="14" fill="#171029" stroke="#c2a4ff" stroke-opacity="0.28"/>
+  <text x="970" y="433" fill="#c2a4ff" font-family="system-ui, sans-serif" font-size="15" font-weight="700">HR &amp; PAYROLL</text>
+  <text x="970" y="480" fill="#ffffff" font-family="system-ui, sans-serif" font-size="28" font-weight="800">Auto-Payslips</text>
+  <text x="970" y="515" fill="#9f94b8" font-family="system-ui, sans-serif" font-size="14" font-weight="600">Attendance &amp; Leave Sync</text>
+
+  <rect x="1210" y="395" width="245" height="145" rx="14" fill="#171029" stroke="#c2a4ff" stroke-opacity="0.28"/>
+  <text x="1235" y="433" fill="#00d4ff" font-family="system-ui, sans-serif" font-size="15" font-weight="700">ANALYTICS &amp; BI</text>
+  <text x="1235" y="480" fill="#ffffff" font-family="system-ui, sans-serif" font-size="28" font-weight="800">Real-Time KPI</text>
+  <text x="1235" y="515" fill="#10b981" font-family="system-ui, sans-serif" font-size="14" font-weight="600">Export PDF / CSV Reports</text>
+
+  <!-- Architecture Banner at Bottom of Dashboard -->
+  <rect x="415" y="565" width="1040" height="170" rx="14" fill="#140d24" stroke="#c2a4ff" stroke-opacity="0.25"/>
+  <text x="445" y="605" fill="#ffffff" font-family="system-ui, sans-serif" font-size="20" font-weight="700">Modular NestJS Microservice Architecture &amp; PostgreSQL Relational Schema</text>
+  <rect x="445" y="628" width="220" height="75" rx="10" fill="#1d1433" stroke="#7f40ff"/>
+  <text x="555" y="662" text-anchor="middle" fill="#c2a4ff" font-family="monospace" font-size="16" font-weight="700">API Gateway (JWT)</text>
+  <text x="555" y="686" text-anchor="middle" fill="#9f94b8" font-family="monospace" font-size="13">RBAC Guards</text>
+
+  <rect x="695" y="628" width="230" height="75" rx="10" fill="#1d1433" stroke="#00d4ff"/>
+  <text x="810" y="662" text-anchor="middle" fill="#00d4ff" font-family="monospace" font-size="16" font-weight="700">NestJS Services</text>
+  <text x="810" y="686" text-anchor="middle" fill="#9f94b8" font-family="monospace" font-size="13">8 Domain Modules</text>
+
+  <rect x="955" y="628" width="220" height="75" rx="10" fill="#1d1433" stroke="#10b981"/>
+  <text x="1065" y="662" text-anchor="middle" fill="#10b981" font-family="monospace" font-size="16" font-weight="700">PostgreSQL DB</text>
+  <text x="1065" y="686" text-anchor="middle" fill="#9f94b8" font-family="monospace" font-size="13">ACID Transactions</text>
+
+  <rect x="1205" y="628" width="220" height="75" rx="10" fill="#1d1433" stroke="#c2a4ff"/>
+  <text x="1315" y="662" text-anchor="middle" fill="#ffffff" font-family="monospace" font-size="16" font-weight="700">React Dashboard</text>
+  <text x="1315" y="686" text-anchor="middle" fill="#9f94b8" font-family="monospace" font-size="13">TypeScript UI</text>
+
+  <!-- Footer Tech Pills -->
+  <g transform="translate(110, 800)">
+    <rect x="0" y="0" width="140" height="44" rx="22" fill="#1e1533" stroke="#c2a4ff" stroke-opacity="0.4"/>
+    <text x="70" y="28" text-anchor="middle" fill="#ffffff" font-family="system-ui, sans-serif" font-size="17" font-weight="600">NestJS</text>
+
+    <rect x="160" y="0" width="170" height="44" rx="22" fill="#1e1533" stroke="#c2a4ff" stroke-opacity="0.4"/>
+    <text x="245" y="28" text-anchor="middle" fill="#ffffff" font-family="system-ui, sans-serif" font-size="17" font-weight="600">PostgreSQL</text>
+
+    <rect x="350" y="0" width="160" height="44" rx="22" fill="#1e1533" stroke="#c2a4ff" stroke-opacity="0.4"/>
+    <text x="430" y="28" text-anchor="middle" fill="#ffffff" font-family="system-ui, sans-serif" font-size="17" font-weight="600">TypeScript</text>
+
+    <rect x="530" y="0" width="180" height="44" rx="22" fill="#1e1533" stroke="#c2a4ff" stroke-opacity="0.4"/>
+    <text x="620" y="28" text-anchor="middle" fill="#ffffff" font-family="system-ui, sans-serif" font-size="17" font-weight="600">Microservices</text>
+  </g>
+</svg>
+

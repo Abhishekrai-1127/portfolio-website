@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#09060e"/>
+      <stop offset="50%" stop-color="#130b24"/>
+      <stop offset="100%" stop-color="#080b18"/>
+    </linearGradient>
+    <radialGradient id="glow1" cx="25%" cy="25%" r="50%">
+      <stop offset="0%" stop-color="#9d4edd" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#9d4edd" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2" cx="80%" cy="75%" r="45%">
+      <stop offset="0%" stop-color="#00d4ff" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#00d4ff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1d1433" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#0f0a1c" stop-opacity="0.92"/>
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#c2a4ff"/>
+      <stop offset="100%" stop-color="#00d4ff"/>
+    </linearGradient>
+    <linearGradient id="chartFill" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#c2a4ff" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#c2a4ff" stop-opacity="0.0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <rect width="1600" height="900" fill="url(#glow1)"/>
+  <rect width="1600" height="900" fill="url(#glow2)"/>
+
+  <!-- Top Header Banner -->
+  <text x="110" y="95" fill="#c2a4ff" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="700" letter-spacing="3">ADSERVICES • HIGH-THROUGHPUT MESSAGING PLATFORM</text>
+  <text x="110" y="150" fill="#ffffff" font-family="system-ui, -apple-system, sans-serif" font-size="48" font-weight="800">Bulk SMS Panel &amp; Client API Gateway</text>
+
+  <!-- Live Status Pill -->
+  <rect x="1230" y="95" width="260" height="48" rx="24" fill="#16282a" stroke="#10b981" stroke-width="1.5"/>
+  <circle cx="1262" cy="119" r="7" fill="#10b981"/>
+  <text x="1282" y="125" fill="#10b981" font-family="system-ui, -apple-system, sans-serif" font-size="18" font-weight="700">50K+ Msgs / Day Live</text>
+
+  <!-- Main Dashboard Window -->
+  <rect x="110" y="190" width="1380" height="580" rx="22" fill="url(#cardGrad)" stroke="#c2a4ff" stroke-opacity="0.3" stroke-width="1.5"/>
+
+  <!-- Window Controls -->
+  <circle cx="148" cy="226" r="8" fill="#ff5f56"/>
+  <circle cx="174" cy="226" r="8" fill="#ffbd2e"/>
+  <circle cx="200" cy="226" r="8" fill="#27c93f"/>
+  <text x="235" y="232" fill="#8b80a6" font-family="monospace" font-size="16">https://sms.adservices.io/dashboard/campaigns</text>
+  <line x1="110" y1="255" x2="1490" y2="255" stroke="#c2a4ff" stroke-opacity="0.15"/>
+
+  <!-- Metric Cards Row -->
+  <!-- Card 1 -->
+  <rect x="145" y="280" width="305" height="135" rx="14" fill="#150e26" stroke="#c2a4ff" stroke-opacity="0.25"/>
+  <text x="172" y="315" fill="#9f94b8" font-family="system-ui, sans-serif" font-size="16" font-weight="600">DAILY THROUGHPUT</text>
+  <text x="172" y="365" fill="#ffffff" font-family="system-ui, sans-serif" font-size="40" font-weight="800">54,820</text>
+  <text x="172" y="395" fill="#10b981" font-family="system-ui, sans-serif" font-size="15" font-weight="600">▲ +18.4% via Redis Queue</text>
+
+  <!-- Card 2 -->
+  <rect x="475" y="280" width="305" height="135" rx="14" fill="#150e26" stroke="#c2a4ff" stroke-opacity="0.25"/>
+  <text x="502" y="315" fill="#9f94b8" font-family="system-ui, sans-serif" font-size="16" font-weight="600">DELIVERY RATE (DLR)</text>
+  <text x="502" y="365" fill="#c2a4ff" font-family="system-ui, sans-serif" font-size="40" font-weight="800">99.4%</text>
+  <text x="502" y="395" fill="#00d4ff" font-family="system-ui, sans-serif" font-size="15" font-weight="600">● Real-time Webhook Sync</text>
+
+  <!-- Card 3 -->
+  <rect x="805" y="280" width="305" height="135" rx="14" fill="#150e26" stroke="#c2a4ff" stroke-opacity="0.25"/>
+  <text x="832" y="315" fill="#9f94b8" font-family="system-ui, sans-serif" font-size="16" font-weight="600">ACTIVE TEMPLATES</text>
+  <text x="832" y="365" fill="#ffffff" font-family="system-ui, sans-serif" font-size="40" font-weight="800">142</text>
+  <text x="832" y="395" fill="#c2a4ff" font-family="system-ui, sans-serif" font-size="15" font-weight="600">DLT &amp; Dynamic Variables</text>
+
+  <!-- Card 4 -->
+  <rect x="1135" y="280" width="320" height="135" rx="14" fill="#150e26" stroke="#c2a4ff" stroke-opacity="0.25"/>
+  <text x="1162" y="315" fill="#9f94b8" font-family="system-ui, sans-serif" font-size="16" font-weight="600">API LATENCY (P95)</text>
+  <text x="1162" y="365" fill="#00d4ff" font-family="system-ui, sans-serif" font-size="40" font-weight="800">28 ms</text>
+  <text x="1162" y="395" fill="#10b981" font-family="system-ui, sans-serif" font-size="15" font-weight="600">Dockerized Worker Cluster</text>
+
+  <!-- Left Chart Box: Message Dispatch Stream -->
+  <rect x="145" y="440" width="815" height="295" rx="14" fill="#150e26" stroke="#c2a4ff" stroke-opacity="0.2"/>
+  <text x="175" y="480" fill="#ffffff" font-family="system-ui, sans-serif" font-size="20" font-weight="700">Live Dispatch &amp; Scheduled Queue Volume</text>
+  <path d="M175 680 L265 640 L355 655 L445 590 L535 605 L625 535 L715 550 L805 495 L915 475 L915 700 L175 700 Z" fill="url(#chartFill)"/>
+  <path d="M175 680 L265 640 L355 655 L445 590 L535 605 L625 535 L715 550 L805 495 L915 475" fill="none" stroke="url(#accentGrad)" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="625" cy="535" r="6" fill="#c2a4ff"/>
+  <circle cx="805" cy="495" r="6" fill="#00d4ff"/>
+  <circle cx="915" cy="475" r="7" fill="#10b981"/>
+
+  <!-- Right Box: Client API & Campaign Scheduler -->
+  <rect x="985" y="440" width="470" height="295" rx="14" fill="#150e26" stroke="#c2a4ff" stroke-opacity="0.2"/>
+  <text x="1015" y="480" fill="#ffffff" font-family="system-ui, sans-serif" font-size="20" font-weight="700">Client REST API &amp; DLR Feed</text>
+  <rect x="1015" y="502" width="410" height="48" rx="8" fill="#1d1433"/>
+  <text x="1032" y="532" fill="#10b981" font-family="monospace" font-size="15">POST /v1/sms/send  •  200 OK (1,200 batch)</text>
+  <rect x="1015" y="564" width="410" height="48" rx="8" fill="#1d1433"/>
+  <text x="1032" y="594" fill="#c2a4ff" font-family="monospace" font-size="15">CRON Scheduled: OTP_Campaign_09:00</text>
+  <rect x="1015" y="626" width="410" height="48" rx="8" fill="#1d1433"/>
+  <text x="1032" y="656" fill="#00d4ff" font-family="monospace" font-size="15">DLR Webhook: 99.4% Delivered Verified</text>
+
+  <!-- Tech Stack Footer Pills -->
+  <g transform="translate(110, 800)">
+    <rect x="0" y="0" width="140" height="44" rx="22" fill="#1e1533" stroke="#c2a4ff" stroke-opacity="0.4"/>
+    <text x="70" y="28" text-anchor="middle" fill="#ffffff" font-family="system-ui, sans-serif" font-size="17" font-weight="600">Next.js</text>
+
+    <rect x="160" y="0" width="160" height="44" rx="22" fill="#1e1533" stroke="#c2a4ff" stroke-opacity="0.4"/>
+    <text x="240" y="28" text-anchor="middle" fill="#ffffff" font-family="system-ui, sans-serif" font-size="17" font-weight="600">Express.js</text>
+
+    <rect x="340" y="0" width="170" height="44" rx="22" fill="#1e1533" stroke="#c2a4ff" stroke-opacity="0.4"/>
+    <text x="425" y="28" text-anchor="middle" fill="#ffffff" font-family="system-ui, sans-serif" font-size="17" font-weight="600">PostgreSQL</text>
+
+    <rect x="530" y="0" width="130" height="44" rx="22" fill="#1e1533" stroke="#c2a4ff" stroke-opacity="0.4"/>
+    <text x="595" y="28" text-anchor="middle" fill="#ffffff" font-family="system-ui, sans-serif" font-size="17" font-weight="600">Redis</text>
+
+    <rect x="680" y="0" width="140" height="44" rx="22" fill="#1e1533" stroke="#c2a4ff" stroke-opacity="0.4"/>
+    <text x="750" y="28" text-anchor="middle" fill="#ffffff" font-family="system-ui, sans-serif" font-size="17" font-weight="600">Docker</text>
+  </g>
+</svg>
+

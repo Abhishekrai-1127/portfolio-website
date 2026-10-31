@@ -15,13 +15,24 @@ interface LoadingType {
 
 export const LoadingContext = createContext<LoadingType | null>(null);
 
+let hasCompletedInitialLoad = false;
+
+export const getHasCompletedInitialLoad = () => hasCompletedInitialLoad;
+
 export const LoadingProvider = ({ children }: PropsWithChildren) => {
-  const [isLoading, setIsLoading] = useState(() => {
-    // Skip loading on mobile
-    if (window.innerWidth <= 768) return false;
+  const [isLoading, setIsLoadingState] = useState(() => {
+    // Skip loading on mobile or if initial loading already completed in this session
+    if (window.innerWidth <= 768 || hasCompletedInitialLoad) return false;
     return true;
   });
   const [loading, setLoading] = useState(0);
+
+  const setIsLoading = (state: boolean) => {
+    if (!state) {
+      hasCompletedInitialLoad = true;
+    }
+    setIsLoadingState(state);
+  };
 
   const value = {
     isLoading,
@@ -29,13 +40,14 @@ export const LoadingProvider = ({ children }: PropsWithChildren) => {
     setLoading,
   };
   useEffect(() => {
-    // Auto-start animations on mobile since there's no 3D model
-    if (window.innerWidth <= 768) {
+    // Auto-start animations on mobile or when returning from sub-pages
+    if (window.innerWidth <= 768 || hasCompletedInitialLoad) {
+      hasCompletedInitialLoad = true;
       import("../components/utils/initialFX").then((module) => {
         if (module.initialFX) {
           setTimeout(() => {
             module.initialFX();
-          }, 100);
+          }, 80);
         }
       });
     }
